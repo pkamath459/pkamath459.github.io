@@ -1,0 +1,102 @@
+/*Styles*/
+body
+{
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  align-content: center;
+  background-image: url("https://cdn.pixabay.com/photo/2018/10/16/07/07/stars-3750824_1280.png");
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#title
+{
+  color: orange;
+  font-size: 70px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+#subtxt
+{
+  font-family: garamond;
+  font-size: 45px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+#about
+{
+  font-family: calibri;
+  font-size: 25px;
+}
+#cover
+{
+  /*width: 240px;*/
+  width: 100%;
+  height: auto;
+  align-content: center;
+}
+#amlink
+{
+  color: powderblue;
+  background-color: transparent;
+  text-decoration: none;
+  border-style: solid;
+  padding: 5px;
+  font-size: 20px;
+}
+#amlink:hover
+{
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+  border-style: solid;
+  padding: 5px;
+}
+#authors
+{
+  font-family: cambria;
+  font-size: 20px;
+}
+#social
+{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#account
+{
+  color: pink;
+  text-decoration: none;
+  background-color: transparent;
+  border-style: solid;
+  padding: 2px;
+}
+#account:hover
+{
+  color: #c68cff;
+  background-color: transparent;
+  text-decoration: none;
+  border-style: solid;
+  padding: 2px;
+}
+.imgpos
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.left
+{
+  flex: 15%;
+  padding-right: 15px;
+}
+.right
+{
+  flex: 80%;
+  padding-left: 10px;
+}
+@media (max-width: 800px)
+{
+  .right, .left
+  {
+    flex: 100%;
+  }
+}
