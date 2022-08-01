@@ -6,8 +6,8 @@ body
   font-family: Arial;
   align-content: center;
   background-image: url("https://cdn.pixabay.com/photo/2018/10/16/07/07/stars-3750824_1280.png");
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 #title
 {
@@ -25,8 +25,8 @@ body
 }
 #about
 {
-  font-family: calibri;
-  font-size: 25px;
+  font-family: tahoma;
+  font-size: 20px;
 }
 #cover
 {
@@ -55,7 +55,7 @@ body
 #authors
 {
   font-family: cambria;
-  font-size: 20px;
+  font-size: 18px;
 }
 #social
 {
